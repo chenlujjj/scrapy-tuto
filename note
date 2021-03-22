@@ -1,0 +1,10 @@
+note
+* main advantages about Scrapy: requests are scheduled and processed asynchronously.
+* 使用scrapy shell做探索和debug
+* 支持css selector和xpath expression来提取网页元素
+* 多种输出和存储格式：json，csv，xml；ftp，amazon s3，local filesystem
+* 各种middleware，extension，pipeline，也可自定义
+
+
+框架的作用就在于将共性的地方抽象出来，提供了很多便利性。
+开发者不用编写具体的收发网络请求的代码，而是专注于爬虫本身该关注的事情：爬哪些内容，爬下来的东西以什么格式存在哪，等。
